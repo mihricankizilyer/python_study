@@ -41,4 +41,4 @@ def üni_exam(y):
   else:
         print("Your application has been denied.")
 
-exams(85,85,85, 85)
+exams(84,86,74,95)
