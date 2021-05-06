@@ -15,29 +15,21 @@ Conditions:
 
 department = input("What is your department ? ")
 
-def exams(gmat, toefl, ielts, y):
-    
-  if gmat >= 60:
-    
-    if department == "engineering":
-        
+def exams(gmat, toefl, ielts, y): 
+  if gmat >= 60:   
+    if department == "engineering":        
       if toefl >= 60 or ielts >= 60:
-        return üni_exam(y)
-    
+        return üni_exam(y)    
       else:
-        print("Your application has been denied.")
-        
+        print("Your application has been denied.")       
     else:
       return üni_exam(y)  
-
   else:
     print("Your application has been denied.")
 
-def üni_exam(y):
-    
+def üni_exam(y):    
   if y >= 60:
-    print("Your application has been accepted")
-    
+    print("Your application has been accepted")   
   else:
         print("Your application has been denied.")
 
