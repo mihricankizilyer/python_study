@@ -21,6 +21,7 @@ def salary(working_day, daily_price):
       
     else:
       tax_rate = monthly_income / 5 
+      
     income_rate = monthly_income * tax_rate
     net_monthly_fee = monthly_income - income_rate
     return net_monthly_fee
