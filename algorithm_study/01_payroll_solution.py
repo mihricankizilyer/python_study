@@ -12,16 +12,21 @@ Rules:
 """
 
 def salary(working_day, daily_price):
+  
   if working_day < 31:
     monthly_income = working_day * daily_price
+    
     if monthly_income > 5000:
       tax_rate = monthly_income / 4
+      
     else:
       tax_rate = monthly_income / 5 
     income_rate = monthly_income * tax_rate
     net_monthly_fee = monthly_income - income_rate
     return net_monthly_fee
+  
   else:
     working_day = working_day -31
     return salary(working_day, daily_price)
+  
 salary(30,50)
