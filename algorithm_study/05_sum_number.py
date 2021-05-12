@@ -10,5 +10,5 @@ for i in range(0,10):
   rlist.append(int(input()))
 toplam = 0
 for i in rlist:
-  toplam = toplam + i
-print(toplam)
+  sum = sum + i
+print(sum)
