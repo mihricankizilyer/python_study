@@ -7,7 +7,7 @@ for c in word:
     d[c] = d[c] + 1
 print(d)
 
-##############################################################################
+
 
 # get method automatically handles the case where a key is not in a dictionary
 word = 'brontosaurus'
